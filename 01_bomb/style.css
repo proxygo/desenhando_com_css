@@ -1,0 +1,101 @@
+html body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(220, 183, 255);
+}
+
+.container-relogio {}
+
+.container-campo-minado {
+    position: relative;
+    width: 900px;
+    height: 900px;
+}
+
+.container-bomba {
+    width: 900px;
+    height: 900px;
+}
+
+.corpo {
+    position: relative;
+    width: 110px;
+    height: 110px;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background: #1b0f25;
+}
+
+.pavio {
+    position: relative;
+    width: 50px;
+    height: 35px;
+    border-radius: 15%;
+    background: #1b0f25;
+    top: 37%;
+    left: 56%;
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    transform: rotate(215deg);
+    z-index: 1;
+
+}
+
+.pavio2 {
+    position: relative;
+    width: 80px;
+    height: 130px;
+    border-radius: 50%;
+    background: transparent;
+    border: 8px solid;
+    top: 30%;
+    left: 60%;
+    border-color: #fff1ce transparent transparent transparent;
+    transform: rotate(330deg);
+}
+
+.pe-dir {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 21%;
+    left: 46%;
+    background-color: rgb(255, 219, 74);
+    border-radius: 66% 34% 60% 40% / 100% 87% 13% 0%;
+    transform: rotateY(200deg);
+    z-index: -1;
+}
+
+.pe-esc {
+    position: relative;
+    width: 60px;
+    height: 40px;
+    top: 26%;
+    left: 56%;
+    background-color: rgb(255, 219, 74);
+    border-radius: 66% 34% 60% 40% / 100% 87% 13% 0%;
+}
+
+.olho-esc {
+    position: relative;
+    top: 12%;
+    left: 50%;
+    width: 40px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: rotate(100deg);
+}
+
+.olho-dir {
+    position: relative;
+    top: 11%;
+    left: 55%;
+    width: 42px;
+    height: 22px;
+    border-radius: 50%;
+    background: #ffffff;
+    transform: rotate(100deg);
+
+}
