@@ -1,0 +1,43 @@
+.lua {
+  position: absolute;
+  margin: auto;
+  right: 80px;
+  width: 100px;
+  height: 100px;
+
+  background-color: transparent;
+  border-radius: 50px;
+  box-shadow: 20px 10px 0px 0px #f1d49e;
+}
+
+.espaco-estrelas {
+  background: rgb(31, 21, 43) center / 200px 200px round;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.estrelas {
+  background-image:
+    radial-gradient(1px 1px at 25px 5px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 50px 25px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1px 1px at 125px 20px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(1.5px 1.5px at 50px 75px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(2px 2px at 15px 125px,
+      white,
+      rgba(255, 255, 255, 0)),
+    radial-gradient(2.5px 2.5px at 110px 80px,
+      white,
+      rgba(255, 255, 255, 0));
+}
+
